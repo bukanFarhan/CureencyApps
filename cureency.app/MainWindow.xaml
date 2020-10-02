@@ -1,0 +1,18 @@
+﻿<Window x:Class="cureency.app.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cureency.app"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Label" HorizontalAlignment="Left" Height="9" Margin="160,142,0,0" VerticalAlignment="Top" Width="0"/>
+        <Label Content="USD" HorizontalAlignment="Left" Margin="70,50,0,0" VerticalAlignment="Top" Width="116"/>
+        <Label Content="Nilai tukar rupiah" HorizontalAlignment="Left" Margin="70,191,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="InputTextBox" HorizontalAlignment="Left" Margin="70,97,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.175,-6.234"/>
+        <Button Content="HITUNG" HorizontalAlignment="Left" Margin="70,146,0,0" VerticalAlignment="Top" Click="Button_Hitung_Click" Width="120"/>
+        <Label x:Name="resultLabel" Content="0" HorizontalAlignment="Left" Margin="70,240,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
